@@ -18,4 +18,4 @@ source/*
 
 # mds
 results/*
-!summaries/result_example.md
+!results/result_example.md

@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 
-from creations.Gemini_File_Worker.config import model_name
+from config import model_name
 
 def get_file_list(extension_list: list = []) -> list[str]:
     """
